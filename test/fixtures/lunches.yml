@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  what_i_ate: MyString
+  day_of_the_week: MyString
+
+two:
+  what_i_ate: MyString
+  day_of_the_week: MyString

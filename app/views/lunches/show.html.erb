@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>What i ate:</b>
+  <%= @lunch.what_i_ate %>
+</p>
+
+<p>
+  <b>Day of the week:</b>
+  <%= @lunch.day_of_the_week %>
+</p>
+
+
+<%= link_to 'Edit', edit_lunch_path(@lunch) %> |
+<%= link_to 'Back', lunches_path %>
